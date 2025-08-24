@@ -3,6 +3,6 @@ tasks:
     init: |
       sudo apt-get update
       sudo apt-get install -y unzip
-      unzip OverlayWASD.zip -d project
+      unzip OverlayHUD_FinalComplete2.zip -d project
       mv project/* .
-      rm -rf project OverlayWASD.zip
+      rm -rf project OverlayHUD_FinalComplete2.zip
